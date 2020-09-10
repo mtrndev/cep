@@ -17,7 +17,7 @@ foreach ($array as $mostra){
 echo 'Rua: ';
 echo $mostra->logradouro;
 echo '<br>';
-echo 'Bairro: ';
+echo 'Bairros: ';
 echo $mostra->bairro;
 echo '<Br>';
 echo ' Cidade:';
@@ -31,4 +31,4 @@ echo '<hr>';
 <form action='' method='post'>
 	<input type="cep" name="cep" id='cep'>
 	<input type="submit" name="pesquisar cep">
-</form>
+</form><h1> </h1>
